@@ -1,0 +1,31 @@
+{
+	"dedicatedServerId": "${ARS_DEDICATED_SERVER_ID}",
+	"region": "${ARS_REGION}",
+	"adminPassword": "${ARS_ADMIN_PASSWORD}",
+	"gameHostBindAddress": "",
+	"gameHostBindPort": 2001,
+	"gameHostRegisterBindAddress": "${SERVER_IP}",
+	"gameHostRegisterPort": ${SERVER_PORT},
+	"game": {
+		"name": "${ARS_SERVER_NAME}",
+		"password": "${ARS_SERVER_PASSWORD}",
+		"scenarioId": "${ARS_SCENARIO_ID}",
+		"playerCountLimit": ${ARS_MAX_PLAYERS},
+		"autoJoinable": false,
+		"visible": true,
+		"gameProperties": {
+			"serverMaxViewDistance": 2500,
+			"serverMinGrassDistance": 50,
+			"networkViewDistance": 1000,
+			"disableThirdPerson": true,
+			"fastValidation": true,
+			"battlEye": true,
+			"missionHeader": {
+				"m_iPlayerCount": 40,
+				"m_eEditableGameFlags": 6,
+				"m_eDefaultGameFlags": 6
+			}
+		},
+		"mods": []
+	}
+}
